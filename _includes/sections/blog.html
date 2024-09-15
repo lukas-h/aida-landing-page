@@ -1,0 +1,13 @@
+<section>
+    <h2>Blog</h2>
+    <div class="grid">
+        {% for post in site.posts limit: {{ include.limit | default: 100 }} %}
+        <div class="card">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt }}</p>
+            <p>Published on {{ post.date | date: "%B %d, %Y" }}</p>
+            <a href="{{ post.url }}" class="button">Read more</a>
+        </div>
+        {% endfor %}
+    </div>
+</section>

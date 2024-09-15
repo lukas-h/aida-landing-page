@@ -1,0 +1,11 @@
+<section>
+    <h2>Features</h2>
+    <div class="grid">
+        {% for feature in site.features %}
+        <div class="card">
+            <h3>{{ feature.title }}</h3>
+            <p>{{ feature.content }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>

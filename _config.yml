@@ -6,6 +6,8 @@ description: >-
   Google search results) and in your feed.xml site description.
 baseurl: ""
 url: "https://landing-page.himsel.me"
+login_url: "https://app.landing-page.himsel.me/login"
+register_url: "https://app.landing-page.himsel.me/register"
 company: Landing Page
 street: 123 Main Street
 city: 12345 Anytown
