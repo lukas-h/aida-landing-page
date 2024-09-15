@@ -1,0 +1,42 @@
+$black: #1f1f1f;
+$primary: blue;
+$accent: red;
+$white: white;
+
+@font-face {
+    font-family: 'Futura', sans-serif;
+    src: url('/assets/UbuntuMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Futura Bold', sans-serif;
+    src: url('/assets/fb.ttf');
+}
+
+:root {
+    --primary: blue;
+    --accent: red;
+    --black: #121A1A;
+    --white: white;
+    --heading-font: 'Futura Bold', monospace;
+    --body-font: 'Futura', sans-serif;
+    --secondary: var(--accent);
+    --foreground: var(--black);
+    --background: var(--white);
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.body-font {
+    font-family: var(--body-font);
+}
+
+.heading-font {
+    font-family: var(--heading-font);
+}
